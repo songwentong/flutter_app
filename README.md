@@ -21,6 +21,7 @@ For help getting started with Flutter, view our online
 - createState的返回值是State,State是一个抽象类,用来描述当前Widget的状态,需要一个自定义的子类去实现
 - 所以创建StatefulWidget需要两个类来完成
 - State有一个抽象方法是build,返回值是Widget,这个地方是用来更新应用的
+- State是一个强制泛型,必须传入一个StatefulWidget的子类
 
 #### MaterialApp
 - MaterialApp是应用的根窗口,也是一个StatefulWidget
